@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pixelify+Sans:wght@400..700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html{
+    scroll-behavior : smooth;
+}
+body{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    font-size: 20px;
+    font-family: "Niramit","Pixelify Sans";
+}
+h1{
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 60px;
+    margin-left: 50px;
+}
+p{
+    margin-bottom: 0px;
+}
+table{
+    border:white 3px;
+}
+.textandmypic{
+    display:flex;
+    justify-content:baseline;
+}
+.mypicclass{
+    margin-left: 250px;
+    border-radius: 100px;
+}
+.textandmypic{
+    margin-left: 350px;
+}
+.dark-mode {
+    background-color: white;
+    color: black
+}
+.firstline{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    display:block;
+    cursor:pointer;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    height: 30px;
+    width: 120px;
+}
+button:hover{
+    background-color: gray;
+}
+button:active{
+    background-color:black;
+}
+.LOGOALL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LOGOALL p {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+#IG{
+    margin-left: 50px;
+}
+.LOGO img {
+    margin-top:0
+}
+.textactivity{
+    display:inline;
+}
+.btup{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display:none;
+}
+.btup img{
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+video{
+    margin-top: 0;
+    width: 70%;
+    height: 100%;
+}
+#section2{
+    font-family: "Handjet";
+    font-size: 40px;
+    margin: 0px ;
+    line-height: 80px;
+    display: flex;
+    justify-content: baseline;
+    margin-right: 0;
+    margin-left: 40px;
+}
+#li1{
+    font-family: "Handjet";
+    font-size: 40px;
+    margin-left: 0;
+    margin-right: 25px;
+    text-align: left;
+    margin-top: 0;
+    padding: 0 0 0 0;
+}
+#gameiplay{
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 25%;
+    margin-left: 80px;
+}
+.myintrovideo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.myintrovideo h1 {
+    margin: 0;
+    margin-top : 100px;
+}
+.secret{
+    color:white;
+    cursor: pointer;
+}
+/*ลงบรรทัดนี้ไป เป็นของหน้าเว๊ป myjourney.html*/
+.headfuture h1{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 60px;
+}
+.futuretable{
+    width: 75%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin: 20px auto 40px;
+    background-color: #f2f2f2;
+}
+th {
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+#fouryears{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+}
+.myfuture{
+    height: 160%;
+}
+.My{
+    color: blue;
+}
+.Future{
+    color: rgb(255, 147, 6);
+}
+/*ลงบรรทัดนี้ไป เป็นของหน้าเว๊ป myfuture.html*/
+#Mylife{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.fullstack{
+    display: block;
+    margin: 0 auto; 
+    margin-top: 20px;
+    height: 70%;
+}
+.My2{
+    color: rgb(255, 0, 0);
+}
+.Journey{
+    color: rgb(251, 255, 6);
+}
+/*ล่างลงไปเป็นปุ่มlinkไปหน้าpagesต่างๆ*/
+.btlink{
+    position: absolute;
+    margin-left: 60px;
+}
+.btlink button{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: "Handjet";
+}
+.btlink a{
+    text-decoration: none;
+}
