@@ -350,6 +350,14 @@ th {
         height: 200px;
         float: right;
     }
+    #Mylife{
+        width: 100%;
+        text-align: center;
+    }
+    .fullstack{
+        width: 80%;
+        height: 500px;
+    }
 }
 @media  screen and (min-width: 361px) and (min-height: 641px) and (max-width: 768px) and (max-height: 1024px){
     body{
